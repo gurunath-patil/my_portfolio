@@ -1,4 +1,5 @@
 import React from "react";
+import developerMan from "./ui_source/image.jpg"
 
 export function About() {
 
@@ -7,7 +8,7 @@ export function About() {
             <section className="row" id="about-container">
                 {/* image container  */}
                 <div className="col-md-5 d-flex justify-content-center align-items-center">
-                    <img src="src\ui_source\image.jpg" className="h-75 w-50 rounded-circle border border-dark" alt="image" />
+                    <img src={developerMan} className="h-75 w-50 rounded-circle border border-dark" alt="image" />
                 </div>
 
                 {/* txt container */}

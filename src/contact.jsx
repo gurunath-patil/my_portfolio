@@ -1,6 +1,8 @@
 import React from "react";
 import "./style.css";
 import flag from "./ui_source/maps-flags_447031.png"
+import telephone from "./ui_source/telephone_724664.png"
+import email from "./ui_source/email.png"
 export default function Contact() {
 
     return (
@@ -18,12 +20,12 @@ export default function Contact() {
                             <p class="text-capitalize fw-bold fs-5">Kolhapur, Maharashtra 416207</p>
                         </div>
                         <div class="col-12 col-lg-4 d-flex flex-column align-items-center">
-                            <img class="w-25" src="src/ui_source/telephone_724664.png" alt="paris" />
+                            <img class="w-25" src={telephone} alt="paris" />
                             <p class="text-capitalize mt-3 fw-semibold">phone</p>
                             <p class="text-capitalize fw-bold fs-5">+91 7378478383</p>
                         </div>
                         <div class="col-12 col-lg-4 d-flex flex-column align-items-center">
-                            <img class="w-25" src="src/ui_source/email.png" alt="paris" />
+                            <img class="w-25" src={email} alt="paris" />
                             <p class="text-capitalize mt-3 fw-semibold">Email</p>
                             <p class="fw-bold fs-5">work.gurunathpatil@gmail.com</p>
                         </div>
