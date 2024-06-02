@@ -1,5 +1,6 @@
 import React from "react";
-import "./style.css"
+import "./style.css";
+import flag from "./ui_source/maps-flags_447031.png"
 export default function Contact() {
 
     return (
@@ -12,7 +13,7 @@ export default function Contact() {
                 <div class="col-12 col--lg-12 mt-5">
                     <div class="row mb-5">
                         <div class="col-12 col-lg-4 d-flex flex-column align-items-center">
-                            <img class="w-25" src="src/ui_source/maps-flags_447031.png" alt="paris" />
+                            <img class="w-25" src={flag} alt="paris" />
                             <p class="text-capitalize mt-3 fw-semibold">Address</p>
                             <p class="text-capitalize fw-bold fs-5">Kolhapur, Maharashtra 416207</p>
                         </div>
