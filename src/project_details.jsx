@@ -4,7 +4,7 @@ import "./style.css";
 const projectObj = [
   {
     title: "Baramati DudhSange & ATA ERP Projects",
-    view: "",
+    view: "http://203.192.229.114:90/ERP",
     imgURL: "https://mahasarkar.co.in/wp-content/uploads/2023/11/Baramati-Taluka-Sahakari-Doodh-logo-1200x675.webp",
     description: "In this project, I contributed as both a frontend and backend developer during my internship. On the frontend, I created pages, implemented data binding, generated reports, and inserted data into the database. On the backend, I worked to create endpoints."
   },
@@ -12,7 +12,7 @@ const projectObj = [
     title: "English Words Dictionary",
     view: "https://github.com/gurunath-patil?tab=repositories",
     imgURL: "https://images.unsplash.com/photo-1524639064490-254e0a1db723?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8ZGljdGlvbmFyeXxlbnwwfHwwfHx8MA%3D%3D",
-    description: "English dictionary webpage where users can search for words and find their meaning, audio pronunciation, synonyms, antonyms, and more details. There is also a button that links to Wikipedia to show related information about the word."
+    description: "English dictionary webpage where users can search for words and find their meaning, audio pronunciation, synonyms, antonyms, and more details. There is also a button that links to Wikipedia to show related information about the word.you're a student, professional, language enthusiast, our English dictionary webpage is yours"
   },
   {
     title: "TO DO LIST Website Simple Page",
@@ -43,7 +43,7 @@ export function ProjectDetails() {
             {projectObj.map((res, index) => {
               const { title, imgURL, view, description } = res
               return (
-                <div className="col-md-3 col-8" id="project-container">
+                <div className="col-md-3 col-8 d-flex p-0" id="project-container">
                   <div className="p-3 card-container border border-dark rounded bg-dark" key={index} >
                     <h3 className="ms-3 mt-3 fw-bold text-info">{title}</h3>
                     <p className="ms-3 paregraph-line mt-3 text-light">
