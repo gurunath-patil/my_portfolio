@@ -10,13 +10,13 @@ const projectObj = [
   },
   {
     title: "English Words Dictionary",
-    view: "https://github.com/gurunath-patil?tab=repositories",
+    view: "https://github.com/gurunath-patil/basic_english_dictionary.git",
     imgURL: "https://images.unsplash.com/photo-1524639064490-254e0a1db723?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8ZGljdGlvbmFyeXxlbnwwfHwwfHx8MA%3D%3D",
     description: "English dictionary webpage where users can search for words and find their meaning, audio pronunciation, synonyms, antonyms, and more details. There is also a button that links to Wikipedia to show related information about the word.you're a student, professional, language enthusiast, our English dictionary webpage is yours"
   },
   {
     title: "TO DO LIST Website Simple Page",
-    view: "https://github.com/gurunath-patil?tab=repositories",
+    view: "https://github.com/gurunath-patil",
     imgURL: "https://plus.unsplash.com/premium_photo-1683749810514-860f96ad0735?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzN8fHRvJTIwZG8lMjBsaXN0fGVufDB8fDB8fHww",
     description: "It's a simple to-do list page where users can add tasks along with the time and day. When the user clicks on a button, the task is added to the list box. Users can also delete tasks from the list. Additionally, users can log in to this page. The list box is placed at the bottom"
   }
