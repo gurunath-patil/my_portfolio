@@ -22,7 +22,7 @@ export function About() {
                         <p>Currently working in Compserv Private LTD, Kolhapur as a inten "Software Developer".</p>
                     </div>
                     <div className="d-flex align-items-center justify-content-center mt-3 ms-5 mb-5">
-                        <a className="btn btn-dark border-warning text-warning fw-bold d-flex align-items-center" href="https://drive.google.com/file/d/1OO2yEe7YSrt01t7Fg80Fu_P6nf-VMGmW/view?usp=sharing" target="_black">Resume &nbsp;<span class="material-icons p-0">
+                        <a className="btn btn-dark border-warning text-warning fw-bold d-flex align-items-center" href="https://drive.google.com/file/d/1_EwdU7fr18G9YkAcFUgB-dUOo9CIett3/view?usp=sharing" target="_black">Resume &nbsp;<span class="material-icons p-0">
                             download
                         </span></a>
                     </div>
