@@ -4,7 +4,7 @@ import "./style.css";
 const projectObj = [
   {
     title: "Baramati DudhSange & ATA ERP Projects",
-    view: "http://203.192.229.114:90/ERP",
+    view: "",
     imgURL: "https://mahasarkar.co.in/wp-content/uploads/2023/11/Baramati-Taluka-Sahakari-Doodh-logo-1200x675.webp",
     description: "In this project, I contributed as both a frontend and backend developer during my internship. On the frontend, I created pages, implemented data binding, generated reports, and inserted data into the database. On the backend, I worked to create endpoints."
   },
