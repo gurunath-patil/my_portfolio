@@ -15,10 +15,10 @@ const projectObj = [
     description: "English dictionary webpage where users can search for words and find their meaning, audio pronunciation, synonyms, antonyms, and more details. There is also a button that links to Wikipedia to show related information about the word.you're a student, professional, language enthusiast, our English dictionary webpage is yours"
   },
   {
-    title: "TO DO LIST Website Simple Page",
-    view: "https://github.com/gurunath-patil",
-    imgURL: "https://plus.unsplash.com/premium_photo-1683749810514-860f96ad0735?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzN8fHRvJTIwZG8lMjBsaXN0fGVufDB8fDB8fHww",
-    description: "It's a simple to-do list page where users can add tasks along with the time and day. When the user clicks on a button, the task is added to the list box. Users can also delete tasks from the list. Additionally, users can log in to this page. The list box is placed at the bottom"
+    title: "Weather Website",
+    view: "https://github.com/gurunath-patil/Weather_Forcast.git",
+    imgURL: "https://images.unsplash.com/photo-1560977501-7cb367eccebe?q=80&w=1925&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    description: "Weather Website provides up-to-date and accurate weather information for locations worldwide.This Project is the best resource for users to check current weather conditions and forecasts Weather, some Key Features: Current Weather Conditions, Hourly and Daily Forecasts, Weather Alerts and Notifications, Customizable Locations etc."
   }
 ]
 
@@ -39,7 +39,7 @@ export function ProjectDetails() {
         </div>
         {/* project cards */}
         <div id="project-card-container">
-          <div className="row d-flex justify-content-evenly vw-100">
+          <div className="row d-flex justify-content-evenly flex-wrap vw-100">
             {projectObj.map((res, index) => {
               const { title, imgURL, view, description } = res
               return (
