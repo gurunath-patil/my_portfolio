@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./style.css"
 import moment from "moment";
+import { redirect } from "react-router-dom";
 
 export default function ContactPage() {
     const [name, setName] = useState()
@@ -17,7 +18,7 @@ export default function ContactPage() {
                 let output = await result.text()
                 if (typeof output == "string") {
                     alert('your details received successfully')
-                    window.location.reload()
+                    redirect('/contactform')
                 }
             } catch (err) {
                 alert('data not save succefully try again')
