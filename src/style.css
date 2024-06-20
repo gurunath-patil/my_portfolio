@@ -225,6 +225,7 @@
 
 /* screen size phones */
 @media only screen and (max-width: 600px) {
+
 	/* set title conatiner height for this screen show at mid */
 	#title-flex-container {
 		height: 100vh;
@@ -258,3 +259,60 @@
 }
 
 /* @media only screen and (min-width: 600px) and (max-width: 600px) {} */
+
+#add-color-great {
+	color: #64CCC5;
+}
+
+#contact-details-container {
+	background-color: #04364A;
+}
+
+#form-container {
+	border-radius: 5%;
+}
+
+#name,
+#emailid {
+	border: none;
+	border-bottom: 1px solid;
+	width: 100%;
+	padding: 3px;
+}
+
+#msg {
+	width: 100%;
+}
+
+input:focus {
+	outline: none;
+}
+
+#name:focus,
+#emailid:focus {
+	border-width: 2px;
+}
+
+.form-text-color {
+	color: #04364A;
+}
+
+.form-btn-bg {
+	background-color: #04364A;
+	color: white;
+}
+
+#left-side-container {
+	padding-left: 6%;
+}
+
+#form-container {
+	background-color: white;
+}
+
+@media screen and (max-width: 992px) {
+	#right-side-container {
+		margin-top: 10%;
+		margin-bottom: 5%;
+	}
+}

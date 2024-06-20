@@ -1,22 +1,22 @@
 import React, { Fragment } from "react";
 import * as ReactDOM from "react-dom/client";
-import Title_ui from "./title";
-import { ProjectDetails } from "./project_details";
-import { About } from "./about";
-import Experience from "./exprince";
-import Skills from "./skills";
-import Education from "./education";
-import Contact from "./contact";
+import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import App from "./app";
+import ContactPage from "./contactPage";
 
+const route = createBrowserRouter([
+    {
+        path: "my_portfolio",
+        element: <App />
+    },
+    {
+        path: "contactform",
+        element: <ContactPage />
+    }
+])
 ReactDOM.createRoot(document.getElementById('root')).render(
     <>
-        <Title_ui />
-        <About />
-        <ProjectDetails />
-        <Experience />
-        <Skills />
-        <Education />
-        <Contact />
+        <RouterProvider router={route} />
     </>
 
 )
