@@ -10,7 +10,7 @@ const route = createBrowserRouter([
         element: <App />
     },
     {
-        path: "contactform",
+        path: "my_portfolio/contactform",
         element: <ContactPage />
     }
 ])

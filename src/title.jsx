@@ -26,7 +26,7 @@ function Title() {
                         <h1 className="display-2 fw-bold mb-3">I love exploring new things!</h1>
                         <p className="p-2 fs-4 fw-bold">I'm an Web developer with a goal-driven creative mindset and passion for learning and innovating.</p>
                         {/* <p className="p-1 fs-4 w-75 fw-bold">Currently, I am an intern as a Web Developer at Compserv Private LTD in Kolhapur, and I am also a postgraduate student..</p> */}
-                        <Link to="/contactform" className="btn btn-primary btn-lg mt-5 ">Contact Me</Link>
+                        <Link to="/my_portfolio/contactform" className="btn btn-primary btn-lg mt-5 ">Contact Me</Link>
                     </div>
                 </div>
                 <Outlet />
