@@ -18,6 +18,9 @@ export default function ContactPage() {
                 let output = await result.text()
                 if (typeof output == "string") {
                     alert('your details received successfully')
+                    setEmail('')
+                    setMassage('')
+                    setName('')
                     redirect('/contactform')
                 }
             } catch (err) {
