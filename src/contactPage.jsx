@@ -2,11 +2,13 @@ import React, { useState } from "react";
 import "./style.css"
 import moment from "moment";
 import { redirect } from "react-router-dom";
+import Loader from "./loader/loaderUi";
 
 export default function ContactPage() {
     const [name, setName] = useState()
     const [email, setEmail] = useState()
     const [massage, setMassage] = useState()
+    const [loaderState, setLoaderState] = useState(false)
 
     async function sendMassage(e) {
         e.preventDefault();
@@ -14,9 +16,11 @@ export default function ContactPage() {
         let emailStatus = emailCondition.test(email)
         if (emailStatus) {
             try {
+                setLoaderState(true);
                 let result = await fetch(`https://script.google.com/macros/s/AKfycbyh2bCzV8WOzyu5QUdC2319dkQ90SruuOVhFWQhsYonazxCaUmwT-SYVfBFg47j3yGD4A/exec?first=${name}&email=${email}&message=${massage}&date=${moment().format("DD/MM/YYYY, h:mm a")}`)
                 let output = await result.text()
                 if (typeof output == "string") {
+                    setLoaderState(false);
                     alert('your details received successfully')
                     setEmail('')
                     setMassage('')
@@ -34,6 +38,7 @@ export default function ContactPage() {
 
     return (
         <>
+            {loaderState && <Loader />}
             <div className="w-100 min-vh-100 d-flex justify-contnet-center flex-wrap align-items-center border border-dark" id="contact-details-container">
                 <div className="row container-fluid p-2">
                     {/* first part left side */}
