@@ -16,7 +16,7 @@ const projectObj = [
   },
   {
     title: "Weather Website",
-    view: "https://github.com/gurunath-patil/Weather_Forcast.git",
+    view: "https://weather-forcast-nu.vercel.app/",
     imgURL: "https://images.unsplash.com/photo-1560977501-7cb367eccebe?q=80&w=1925&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     description: "Weather Website provides up-to-date and accurate weather information for locations worldwide.This Project is the best resource for users to check current weather conditions and forecasts Weather, some Key Features: Current Weather Conditions, Hourly and Daily Forecasts, Weather Alerts and Notifications, Customizable Locations etc."
   }
