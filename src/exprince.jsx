@@ -6,7 +6,7 @@ let experience_details = [
         id: 1,
         company_name: "Compserv Private LTD, Kolhapur",
         position: "Trainer & Full Stack Developer",
-        duration: "Octombar - Till Now",
+        duration: "September 2023 - September 2024",
         title: "Web Developer",
         details: "As A Intern for  Web development in Angular and NestJs As Well As Figma."
     }
@@ -27,7 +27,7 @@ function Experience() {
                             <div className="border border-dark p-4 fw-bold text-light rounded" id="exprince-box" key={res.id}>
                                 <p className="h5">{company_name}</p>
                                 <p className="lh-1 text-info">{position}</p>
-                                <p>{duration}</p>
+                                <p className="lh-3">{duration}</p>
                                 <p>{title}</p>
                                 <p>{details}</p>
                             </div>

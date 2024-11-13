@@ -4,7 +4,7 @@ import "./style.css"
 let experience_details = [
     {
         id: 1,
-        year: "Persuing",
+        year: "2024",
         course_title: "Master's Of Computer Application",
         collage_name: "D Y Patil Agricuture & Technical University, Talsande"
     },
